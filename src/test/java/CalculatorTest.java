@@ -9,4 +9,13 @@ public class CalculatorTest {
         int sum = calculator.addNums(2, 2);
         Assertions.assertEquals(sum, 4);
     }
+
+    @Test
+    public void addNumsTest2(){
+        Calculator calculator = new Calculator();
+        int sum = calculator.addNums(2, 2);
+        Assertions.assertEquals(sum, 500);
+    }
+
+
 }
